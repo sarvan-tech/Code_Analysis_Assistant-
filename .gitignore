@@ -1,0 +1,31 @@
+# Ignore reports folder and other generated files
+/reports/
+# Ignore build outputs
+*.exe
+*.dll
+*.obj
+*.bin
+*.log
+*.md
+# Ignore IDE and editor files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Ignore OS files
+Thumbs.db
+.DS_Store
+# Ignore node modules (if any)
+node_modules/
+# Ignore Python cache
+__pycache__/
+*.pyc
+# Ignore Java build outputs
+*.class
+/build/
+# Ignore other common generated files
+*.tmp
+*.bak
+*.swp
+*.lock
