@@ -9,7 +9,7 @@ param(
 
 # Root paths
 $rootDir   = Split-Path -Parent $MyInvocation.MyCommand.Definition
-$baseDir   = Join-Path $rootDir "sample-projects"
+$baseDir   = Join-Path $rootDir "projects\sample_projects"
 $reportDir = Join-Path $rootDir "reports"
 $logFile   = Join-Path $reportDir "run-log.txt"
 
